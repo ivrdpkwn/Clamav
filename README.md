@@ -46,11 +46,11 @@ CPU：2 核以上
 ## 项目结构
 /Clamav/    
 ├─ clamav-demo.tar.xz/   
-│  ├─ web                    # web：Flutter构建的前端
+│  ├─ web                    # web：Flutter构建的前端  
 │  │  ├─ web  
 │  │  ├─ nginx.conf  
 │  │  └─ Dockerfile  
-│  ├─ scanner                # scanner：C++逻辑
+│  ├─ scanner                # scanner：C++逻辑  
 │  │  ├─ scanner_simple.pro.user  
 │  │  ├─ main.cpp                  
 │  │  ├─ request.h      
@@ -60,7 +60,7 @@ CPU：2 核以上
 │  │  ├─ clamclient.h    
 │  │  ├─ clamclient.cpp     
 │  │  └─ Dockerfile  
-│  ├─ docker-compose.yml     # 配置文件格式   
+│  ├─ docker-compose.yml     # 配置文件格式       
 ├─ README.md  
 └─ test_cases.xlsx  
 
