@@ -111,4 +111,4 @@ docker-compose up -d
 
 压缩包内包含伪病毒文件用于测试。
 
-完整测试用例请参见 docs/test_cases.xlsx。
+完整测试用例请参见 test_cases.xlsx。
