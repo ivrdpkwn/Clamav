@@ -45,24 +45,24 @@ CPU：2 核以上
 
 ## 项目结构
 /Clamav/    
-├─ clamav-demo.tar.xz/ 
-│  ├─ web                  # web：Flutter构建的前端
-│  │  ├─ web
-│  │  ├─ nginx.conf
-│  │  └─ Dockerfile
-│  ├─ scanner              # scanner：C++逻辑
-│  │  ├─ scanner_simple.pro.user
-│  │  ├─ main.cpp                
-│  │  ├─ request.h    
-│  │  ├─ request.cpp 
-│  │  ├─ httpserver.h  
-│  │  ├─ httpserver.cpp  
-│  │  ├─ clamclient.h  
-│  │  ├─ clamclient.cpp   
-│  │  └─ Dockerfile
-│  ├─ docker-compose.yml   # 配置文件格式   
-├─ README.md
-└─ test_cases.xlsx
+├─ clamav-demo.tar.xz/   
+│  ├─ web                    # web：Flutter构建的前端
+│  │  ├─ web  
+│  │  ├─ nginx.conf  
+│  │  └─ Dockerfile  
+│  ├─ scanner                # scanner：C++逻辑
+│  │  ├─ scanner_simple.pro.user  
+│  │  ├─ main.cpp                  
+│  │  ├─ request.h      
+│  │  ├─ request.cpp   
+│  │  ├─ httpserver.h    
+│  │  ├─ httpserver.cpp    
+│  │  ├─ clamclient.h    
+│  │  ├─ clamclient.cpp     
+│  │  └─ Dockerfile  
+│  ├─ docker-compose.yml     # 配置文件格式   
+├─ README.md  
+└─ test_cases.xlsx  
 
 ## 部署步骤
 
