@@ -46,6 +46,9 @@ CPU：2 核以上
 ## 项目结构
 /Clamav/    
 ├─ clamav-demo.tar.xz/   
+│  ├─ clamav-test            # 测试文件  
+│  │  ├─ test1.txt    
+│  │  └─ eicar.txt             
 │  ├─ web                    # web：Flutter构建的前端  
 │  │  ├─ web  
 │  │  ├─ nginx.conf  
